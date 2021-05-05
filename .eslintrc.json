@@ -68,7 +68,10 @@
             "error",
             "ignorePackages",
             {
-                "ts": "never"
+                "ts": "never",
+                "js": "never",
+                "jsx": "never",
+                "tsx": "never"
             }
         ],
         "import-helpers/order-imports": [
@@ -102,8 +105,8 @@
         ]
     },
     "settings": {
-        "import/resolver": {
-            "typescript": {}
-        }
+      "import/resolver": {
+        "typescript": {}
+      }
     }
 }
