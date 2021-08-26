@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SignInButton } from "../SignInButton";
 import styles from "./styles.module.scss";
 import React from "react";
